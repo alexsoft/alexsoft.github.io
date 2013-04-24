@@ -1,0 +1,5 @@
+auto: true
+markdown: kramdown
+permalink: /year/month/:title
+paginate: 5
+host: github.asft.org
