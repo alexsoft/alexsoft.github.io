@@ -1,5 +1,7 @@
-auto: true
+name: Alex Plekhanov blog
 markdown: kramdown
-permalink: /year/month/:title
-paginate: 5
-host: github.asft.org
+pygments: true
+timezone: Europe/Kiev
+permalink: :year/:month/:title/
+paginate_path: p:num
+paginate: 7
