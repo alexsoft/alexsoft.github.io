@@ -1,6 +1,5 @@
-alexsoft.github.io
-==================
-Здесь будет мой блог.
-Я пока его еще настраиваю и тестирую. Поэтому пока ничего нет.
+#alexsoft.github.io
 
-used this doc http://jekyllrb.com/
+Мой бложек с помощью джекилл и гитхаб :)
+
+http://gh.asft.org
