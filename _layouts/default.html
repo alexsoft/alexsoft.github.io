@@ -13,9 +13,10 @@
 	<meta name="description" content="Блог веб разработчика Алексея Плеханова">
 	<meta name="author" content="Алексей Плеханов">
 
-	<link rel="stylesheet" href="/css/bootstrap.min.css">
 	<link href='http://fonts.googleapis.com/css?family=Ubuntu:400,700,400italic&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="/css/bootstrap.min.css">
 	<link rel="stylesheet" href="/css/syntax.css">
+	<link rel="stylesheet" href="/css/styles.css">
 </head>
 <body style="font-family: Ubuntu, Helvetica, sans-serif;">
 <div class="container">
@@ -26,6 +27,18 @@
 				<a href="/">{{ header[0] }}</a> <small>{{ header[1] }}</small>
 			</h1>
 			{{content}}
+		</div>
+	</div>
+
+	<div class="row" id="footer">
+		<div class="col-{{site.data.settings.bssize}}-10 col-{{site.data.settings.bssize}}-offset-1 text-center">
+			<div class="btn-group">
+				<a href="http://twitter.com/alex_soft" target="_blank" class="btn btn-default">Твиттер</a>
+				<a href="http://github.com/alexsoft" target="_blank" class="btn btn-default">ГитХаб</a>
+				<button class="btn btn-info">
+					<span class="glyphicon glyphicon-new-window"></span>
+				</button>
+			</div>
 		</div>
 	</div>
 </div>
