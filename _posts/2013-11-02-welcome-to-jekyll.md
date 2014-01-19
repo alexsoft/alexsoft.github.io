@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "2"
-date:   2013-11-07 11:22:00
 categories: jekyll update
 ---
 

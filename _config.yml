@@ -1,7 +1,9 @@
-name: Alex Plekhanov blog
+name: Алексей Плеханов · Блог
+encoding: UTF-8
 markdown: kramdown
 pygments: true
 timezone: Europe/Kiev
 permalink: :year/:month/:title/
-paginate_path: p:num
-paginate: 7
+paginate_path: page:num
+paginate: 5
+future: false
