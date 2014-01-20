@@ -8,9 +8,11 @@ layout: default
 			<a href="{{ post.url }}">{{ post.title }}</a>
 		</h3>
 		
-		{{post.excerpt}}
 		{% if post.content contains site.excerpt_separator %}
-		<a href="{{post.url}}">Читать полностью...</a><br>
+			{{post.excerpt}}
+			<a href="{{post.url}}">Читать полностью...</a><br>
+		{% else %}
+			{{post.content}}
 		{% endif %}
 
 		{% capture the_day %}{{ post.date | date: "%d" }}{% endcapture %}
