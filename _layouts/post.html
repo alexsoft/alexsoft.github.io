@@ -5,6 +5,12 @@ layout: default
 <article class="col-{{site.data.settings.bssize}}-12 text-justify">
 	<h3 class="text-center">{{ page.title }}</h3>
 
+	{% if (post.img) %}
+		<div class="thumbnail">
+			<img src="{{post.img}}" alt="">
+		</div>
+	{% endif %}
+
 	{{ content }}
 
 	<div class="row">

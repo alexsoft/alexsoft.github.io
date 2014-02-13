@@ -1,3 +1,15 @@
+body {
+	font-size: 18px;
+	line-height: 1.6em;
+}
+
 #footer {
 	margin: 25px 0;
+}
+
+blockquote {
+	font-size: 12px;
+}
+p {
+	text-indent: 25px;
 }
