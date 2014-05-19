@@ -17,4 +17,4 @@ img:    "img/tsc2014.jpg"
 
 Печаль! Теперь жду Кэмпа в 2015 году!
 
-P.S. [Репозиторий на гитхабе с моим тестовым заданием](https://github.com/alexsoft/TolstoyStartupCamp2014)
+P.S. [Репозиторий на гитхабе с моим тестовым заданием](https://github.com/alexsoft/TolstoyStartupCamp2014-March)
