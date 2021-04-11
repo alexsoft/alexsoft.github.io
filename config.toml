@@ -1,0 +1,29 @@
+baseURL = "http://alexsoft.github.io/"
+languageCode = "en-us"
+title = "Alexey Plekhanov"
+theme = "anatole"
+
+[params]
+title = "I'm Alex Plekhanov"
+author = "Alex Plekhanov"
+description = "PHP Developer"
+profilePicture = "images/alex2021.jpg"
+
+mainSections = []
+
+[permalinks]
+blog = "/blog/:year/:month/:title"
+
+[menu]
+
+  [[menu.main]]
+  name = "Home"
+  identifier = "home"
+  weight = 100
+  url = "/"
+
+  [[menu.main]]
+  name = "Blog"
+  weight = 200
+  identifier = "blog"
+  url = "/blog/"
