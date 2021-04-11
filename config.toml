@@ -8,6 +8,7 @@ title = "I'm Alex Plekhanov"
 author = "Alex Plekhanov"
 description = "PHP Developer"
 profilePicture = "images/alex2021.jpg"
+doNotLoadAnimations = true
 
 mainSections = []
 
