@@ -21,3 +21,4 @@ timezone:         Europe/Kiev
 social:
     github:  https://github.com/alexsoft
     twitter: https://twitter.com/alex_soft
+theme: jekyll-theme-hacker
