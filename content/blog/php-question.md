@@ -1,6 +1,7 @@
 ---
 title: "Interesting PHP question"
 date: 2021-04-02T11:15:00Z
+draft: false
 ---
 
 Recently, I've come up with an interesting question that can potentially be used for interviewing candidates 🙂
