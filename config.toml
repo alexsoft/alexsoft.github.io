@@ -2,15 +2,34 @@ baseURL = "http://alexsoft.github.io/"
 languageCode = "en-us"
 title = "Alexey Plekhanov"
 theme = "anatole"
+enableEmoji = true
+enableRobotsTXT = true
 
 [params]
 title = "I'm Alex Plekhanov"
 author = "Alex Plekhanov"
-description = "PHP Developer"
+description = "Software Engineer, PHP"
 profilePicture = "images/alex2021.jpg"
 doNotLoadAnimations = true
+pygmentsCodeFences = true
+pygmentsUseClasses = true
 
 mainSections = []
+
+[[params.socialIcons]]
+icon = "fab fa-github"
+title = "GitHub"
+url = "https://github.com/alexsoft"
+
+[[params.socialIcons]]
+icon = "fab fa-linkedin"
+title = "LinkedIn"
+url = "https://www.linkedin.com/in/alexplekhanov"
+
+[[params.socialIcons]]
+icon = "fab fa-facebook"
+title = "Facebook"
+url = "https://www.facebook.com/alexplekhanov"
 
 [permalinks]
 blog = "/blog/:year/:month/:title"

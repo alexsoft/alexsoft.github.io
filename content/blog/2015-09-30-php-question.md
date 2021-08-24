@@ -1,10 +1,12 @@
 ---
 title: "Interesting PHP question"
-date: 2021-04-02T11:15:00Z
+date: 2015-09-30
 draft: false
+tags:
+    - php
 ---
 
-Recently, I've come up with an interesting question that can potentially be used for interviewing candidates 🙂
+Recently, I've come up with an interesting question that can potentially be used for interviewing candidates :simple_smile:
 
 Imagine we have such a PHP class.
 
