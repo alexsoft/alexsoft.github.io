@@ -1,7 +1,7 @@
 title: "Alex Plekhanov"
 theme: minima
 
-site:
-  minima:
-    social_links:
-      github: alexsoft
+minima:
+  social_links:
+    twitter: alex_soft
+    github: alexsoft
